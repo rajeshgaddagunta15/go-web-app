@@ -13,10 +13,10 @@ spec:
   template:
     metadata:
       labels:
-        app: go-web-app
+        app: go-web-apps
     spec:
       containers:
       - name: go-web-app
-        image: rajeshgadda/golangapp1:{{ .Values.image.tag }}
+        image: rajeshgadda/go-web-app:{{ .Values.image.tag }}
         ports:
         - containerPort: 8080
