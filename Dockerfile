@@ -1,6 +1,7 @@
 #here we the go lang version mentioned in the go.mod file
 #updated docker token details in github action
 #updated git token as well
+####
 FROM golang:1.22.5 as base
 # here we took the /app directory
 WORKDIR /app
